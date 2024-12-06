@@ -27,7 +27,7 @@ function checkAnswer() {
     attempts++;
     const result = compareAnswer(userInput, answer);
     const log = document.getElementById("result-log");
-    log.innerHTML += `<p>${userInput} => ${result}</p>`;
+    log.innerHTML += `<p>第${attempts}次: ${userInput} => ${result}</p>`;
 
     if (result === "4A0B") {
         alert(`恭喜答對！總共嘗試次數：${attempts}`);

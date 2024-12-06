@@ -4,10 +4,13 @@ body {
     background-color: #f9f9f9;
     margin: 0;
     padding: 20px;
-}
+    background-image: url("correct.jpg"); /* 使用 url() 包裹圖片路徑 */
+    background-size: 200px; /* 使圖片覆蓋整個背景 */
+    
+    background-position: center; /* 將圖片置中 */
 
 h1 {
-    color: #333;
+    color: #blanchedalmond;
 }
 
 #game-container {
@@ -17,6 +20,8 @@ h1 {
     background-color: #ffffff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+
+
 }
 
 input {
